@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0E0E10">
+    <title>13 Dimensions Studio Privacy Policies</title>
+    <meta
+        name="description"
+        content="Official privacy policy directory for applications published by 13 Dimensions Studio."
+    >
+    <link rel="icon" type="image/jpeg" href="assets/images/logo_header.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Sora:wght@400;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="page-background" aria-hidden="true">
+        <div class="grid-wash"></div>
+        <div class="orb orb-one" data-parallax-layer="0.22"></div>
+        <div class="orb orb-two" data-parallax-layer="0.12"></div>
+        <div class="orb orb-three" data-parallax-layer="0.08"></div>
+    </div>
+
+    <aside class="sidebar" id="sidebar" aria-hidden="true">
+        <div class="sidebar-header">
+            <p class="sidebar-kicker">Privacy Policies</p>
+            <h2>13 Dimensions Studio</h2>
+            <p>Select an application to open its privacy policy.</p>
+        </div>
+
+        <nav class="sidebar-nav" aria-label="Privacy policy list">
+            <div class="sidebar-section-title">Applications</div>
+            <div class="policy-list" id="policyList"></div>
+        </nav>
+
+        <div class="sidebar-footer glass-chip">
+            <span class="footer-label">Official Directory</span>
+            <p>Privacy policies for current and future applications are available here in one place.</p>
+        </div>
+    </aside>
+
+    <button class="sidebar-scrim" id="sidebarScrim" type="button" aria-label="Close sidebar"></button>
+
+    <main class="page-shell">
+        <section class="hero glass-panel dashboard-hero" id="dashboardHero">
+            <div class="hero-topbar">
+                <button class="menu-toggle" id="dashboardMenuToggle" type="button" aria-label="Open sidebar">
+                    <svg class="menu-icon" viewBox="0 0 64 64" aria-hidden="true">
+                        <rect class="menu-icon-frame" x="7" y="7" width="50" height="50" rx="18"></rect>
+                        <path class="menu-icon-line" d="M18 22H46"></path>
+                        <path class="menu-icon-line menu-icon-line-short" d="M18 32H39"></path>
+                        <path class="menu-icon-line" d="M18 42H46"></path>
+                        <circle class="menu-icon-dot" cx="45" cy="32" r="3.2"></circle>
+                    </svg>
+                </button>
+
+                <button class="ghost-button" id="openPoliciesButton" type="button">Browse Policies</button>
+            </div>
+
+            <div class="hero-layout">
+                <div class="hero-copy">
+                    <p class="section-label">Official Privacy Policy Directory</p>
+                    <h1>Official privacy policies for applications published by 13 Dimensions Studio.</h1>
+                    <p class="hero-text">
+                        This directory provides public access to privacy policies for current and future
+                        mobile applications released by 13 Dimensions Studio.
+                    </p>
+
+                    <div class="hero-metrics">
+                        <div class="metric glass-chip">
+                            <span class="metric-label">Policies</span>
+                            <strong id="metricTotalPolicies">0</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-brand glass-panel">
+                    <div class="logo-frame">
+                        <img id="dashboardLogo" src="assets/images/logo.jpg" alt="13 Dimensions Studio logo">
+                    </div>
+                    <p class="spotlight-label">Studio Directory</p>
+                    <h2>Public privacy policy center</h2>
+                    <p>
+                        Use the menu to open any available application policy. Each application can be
+                        accessed through its own direct URL.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="policy-view" id="policyView" hidden>
+            <section class="policy-hero glass-panel">
+                <div class="hero-topbar">
+                    <button class="menu-toggle" id="policyMenuToggle" type="button" aria-label="Open sidebar">
+                        <svg class="menu-icon" viewBox="0 0 64 64" aria-hidden="true">
+                            <rect class="menu-icon-frame" x="7" y="7" width="50" height="50" rx="18"></rect>
+                            <path class="menu-icon-line" d="M18 22H46"></path>
+                            <path class="menu-icon-line menu-icon-line-short" d="M18 32H39"></path>
+                            <path class="menu-icon-line" d="M18 42H46"></path>
+                            <circle class="menu-icon-dot" cx="45" cy="32" r="3.2"></circle>
+                        </svg>
+                    </button>
+
+                    <div class="policy-top-actions">
+                        <button class="ghost-button" id="backHomeButton" type="button">Back To Home</button>
+                        <button class="ghost-button" id="copyLinkButton" type="button">Copy Policy Link</button>
+                    </div>
+                </div>
+
+                <div class="hero-layout">
+                    <div class="hero-copy">
+                        <p class="section-label">Privacy Policy</p>
+                        <h1 id="policyHeading">Select an application</h1>
+                        <p class="hero-text" id="policySummary">
+                            Select an application from the menu to display its privacy policy.
+                        </p>
+
+                        <div class="hero-metrics">
+                            <div class="metric glass-chip">
+                                <span class="metric-label">Effective</span>
+                                <strong id="policyDate">No date</strong>
+                            </div>
+                            <div class="metric glass-chip">
+                                <span class="metric-label">Status</span>
+                                <strong id="policyStatus">Waiting</strong>
+                            </div>
+                            <div class="metric glass-chip">
+                                <span class="metric-label">Platform</span>
+                                <strong id="policyPlatform">-</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-brand glass-panel">
+                        <div class="logo-frame">
+                            <img id="policyLogo" src="assets/images/logo.jpg" alt="Selected application logo">
+                        </div>
+                        <p class="spotlight-label">Selected Application</p>
+                        <h2 id="policyLogoTitle">No application selected</h2>
+                        <p id="policyLinkCaption">
+                            The direct application policy link is available below after a policy is opened.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="link-preview" id="policyLink">Awaiting selection...</div>
+            </section>
+
+            <section class="policy-panel glass-panel">
+                <div class="policy-toolbar">
+                    <div>
+                        <p class="section-label">Displayed Policy</p>
+                        <h2 id="policyTitle">Select a privacy policy</h2>
+                    </div>
+                </div>
+
+                <article class="policy-body" id="policyContent">
+                    <div class="empty-state">
+                        <p class="empty-kicker">No Policy Loaded</p>
+                        <h2>Select an application from the menu</h2>
+                        <p>The corresponding privacy policy will be displayed here.</p>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <script src="data/policies.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-09-09",
+  "policies": [
+    {
+      "id": "slither-saga",
+      "name": "Slither Saga",
+      "shortName": "Slither Saga",
+      "status": "Published",
+      "effectiveDate": "2026-03-29",
+      "platform": "Android",
+      "category": "Arcade Game",
+      "logo": "assets/images/apps/slithersaga.png",
+      "source": "policies/slither-saga.md",
+      "excerpt": "Gameplay stays local while AdMob may process device and ad interaction data.",
+      "badges": [
+        "AdMob",
+        "Local High Score",
+        "No Account Required"
+      ],
+      "order": 1
+    },
+    {
+      "id": "tic-tac-toe",
+      "name": "Tic-Tac-Toe",
+      "shortName": "Tic-Tac-Toe",
+      "status": "Published",
+      "effectiveDate": "2026-03-29",
+      "platform": "Android",
+      "category": "Board Game",
+      "logo": "assets/images/apps/tictactoe.jpeg",
+      "source": "policies/tic-tac-toe.md",
+      "excerpt": "Simple local gameplay with Google AdMob handling third-party advertising data.",
+      "badges": [
+        "AdMob",
+        "On-Device Gameplay",
+        "No Sign-In"
+      ],
+      "order": 2
+    },
+    {
+      "id": "all-in-one-video-downloader",
+      "name": "All-In-One Video Downloader",
+      "shortName": "AIO Video Downloader",
+      "status": "Published",
+      "effectiveDate": "2026-03-28",
+      "platform": "Android",
+      "category": "Media Utility",
+      "logo": "assets/images/apps/aiovd.png",
+      "source": "policies/all-in-one-video-downloader.md",
+      "excerpt": "Includes optional Firebase accounts, local download history, third-party content requests, and AdMob ads.",
+      "badges": [
+        "Firebase",
+        "Local History",
+        "AdMob"
+      ],
+      "order": 3
+    },
+    {
+      "id": "safeping",
+      "name": "SafePing",
+      "shortName": "SafePing",
+      "status": "Published",
+      "effectiveDate": "2026-03-27",
+      "platform": "Android",
+      "category": "Safety Utility",
+      "logo": "assets/images/apps/safeping.jpg",
+      "source": "policies/safeping.md",
+      "excerpt": "Stores contacts and message templates locally, with SMS, WhatsApp, connectivity checks, and AdMob data flows.",
+      "badges": [
+        "SQLite",
+        "SMS",
+        "AdMob"
+      ],
+      "order": 4
+    },
+    {
+      "id": "pro-doc-scanner",
+      "name": "Pro Document Scanner",
+      "shortName": "Pro Document Scanner",
+      "status": "Published",
+      "effectiveDate": "2026-09-09",
+      "platform": "Android",
+      "category": "Productivity",
+      "logo": "assets/images/apps/prodocscanner.png",
+      "source": "policies/pro-doc-scanner.md",
+      "excerpt": "Official Privacy Policy for Pro Document Scanner covering local document processing, authentication, subscription billing, and AdMob advertising.",
+      "badges": [
+        "Firebase",
+        "Subscription",
+        "AdMob"
+      ],
+      "order": 5
+    },
+    {
+      "id": "space-invaders",
+      "name": "Space Invaders",
+      "shortName": "Space Invaders",
+      "status": "Published",
+      "effectiveDate": "2026-03-29",
+      "platform": "Android",
+      "category": "Arcade Game",
+      "logo": "",
+      "source": "policies/space-invaders.md",
+      "excerpt": "Classic retro arcade gameplay stored locally on device with AdMob advertising data processing.",
+      "badges": [
+        "AdMob",
+        "Local High Score",
+        "No Account Required"
+      ],
+      "order": 6
+    }
+  ]
+}
