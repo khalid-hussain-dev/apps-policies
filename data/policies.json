@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09",
+  "generatedAt": "2026-09-14",
   "policies": [
     {
       "id": "slither-saga",
@@ -108,6 +108,42 @@
         "No Account Required"
       ],
       "order": 6
+    },
+    {
+      "id": "ledgerly",
+      "name": "Ledgerly",
+      "shortName": "Ledgerly",
+      "status": "Published",
+      "effectiveDate": "2026-09-14",
+      "platform": "Android",
+      "category": "Finance Utility",
+      "logo": "assets/images/apps/ledgerly.png",
+      "source": "policies/ledgerly.md",
+      "excerpt": "Offline personal expense tracker. Expense records, preferences, and CSV exports remain local on device.",
+      "badges": [
+        "Offline",
+        "Local Storage",
+        "No Account"
+      ],
+      "order": 7
+    },
+    {
+      "id": "momentum",
+      "name": "Momentum",
+      "shortName": "Momentum",
+      "status": "Published",
+      "effectiveDate": "2026-09-14",
+      "platform": "Android",
+      "category": "Productivity",
+      "logo": "assets/images/apps/momentum.png",
+      "source": "policies/momentum.md",
+      "excerpt": "Offline task management application with local notifications, light/dark themes, and zero analytics or ad tracking.",
+      "badges": [
+        "Offline",
+        "Local Storage",
+        "No Account"
+      ],
+      "order": 8
     }
   ]
 }
